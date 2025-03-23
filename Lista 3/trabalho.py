@@ -34,10 +34,18 @@
 
 # Exercicio 06
 
-nota01 = float(input("Digite a nota do primeiro bimestre: "))
-nota02 = float(input("Digite a nota do segundo bimestre: "))
-media_final = (nota01+nota02)/2
-if media_final >=7:
-    print ( f"Sua média é: {media_final} e você está aprovado")
+# nota01 = float(input("Digite a nota do primeiro bimestre: "))
+# nota02 = float(input("Digite a nota do segundo bimestre: "))
+# media_final = (nota01+nota02)/2
+# if media_final >=7:
+#     print ( f"Sua média é: {media_final} e você está aprovado")
+# else:
+#     print ( f"Sua média é: {media_final} e você está reprovado")
+
+# Exercicio 07
+valor_produto = float(input("Digite o valor do produto: "))
+dinheiro_pago = float(input("Digite o dinheiro pago: "))
+if(dinheiro_pago >= valor_produto):
+    print( f"o seu troco é R${dinheiro_pago - valor_produto:.02f}")
 else:
-    print ( f"Sua média é: {media_final} e você está reprovado")
+    print("Dinheiro insuficiente!!!")
