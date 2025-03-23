@@ -63,7 +63,7 @@ import sys
 # num_pot = int(input("Digite um numero para calcularmos sua potência de 2..."))
 # print( f"A potencia de 2 do numero {num_pot} é {num_pot*num_pot}")
 
-# Exercicio 11
+# # Exercicio 11
 # Brincando um pouquinho com tratamento de exceções :) 
 # try:
 #     num_format = int(input("Digite um numero para teste..."))
@@ -77,9 +77,18 @@ import sys
 # elif num_format <0:
 #     print( f"O numero {num_format} é menor do que 0.")
 
-# Exercicio 12
+# # Exercicio 12
+# ret_01 = float(input("Digite a largura do retângulo..."))
+# ret_02 = float(input("Agora digite o comprimento do retângulo..."))
+# ret_area = ret_01 * ret_02
+# print( f"A area desse retangulo é {ret_area:.01f}un.")
 
-ret_01 = float(input("Digite a largura do retângulo..."))
-ret_02 = float(input("Agora digite o comprimento do retângulo..."))
-ret_area = ret_01 * ret_02
-print( f"A area desse retangulo é {ret_area:.01f}un.")
+# Exercicio 13
+num_int1 = int(input("Digite um numero inteiro..."))
+num_int2 = int(input("Digite mais um numero inteiro..."))
+if num_int1 == num_int2:
+    print("Os numeros são iguais!")
+elif num_int1 > num_int2:
+    print( f"O numero {num_int1} é maior que {num_int2}")
+else:
+    print( f"O numero {num_int2} é maior que {num_int1}")
