@@ -65,14 +65,21 @@ import sys
 
 # Exercicio 11
 # Brincando um pouquinho com tratamento de exceções :) 
-try:
-    num_format = int(input("Digite um numero para teste..."))
-except Exception as erro:
-    print( f"Ocorreu o erro: {erro}")
-    sys.exit(1)
-if num_format==0:
-    print("O numero é 0.")
-elif num_format >0:
-    print( f"O numero {num_format} é maior do que 0.")
-elif num_format <0:
-    print( f"O numero {num_format} é menor do que 0.")
+# try:
+#     num_format = int(input("Digite um numero para teste..."))
+# except Exception as erro:
+#     print( f"Ocorreu o erro: {erro}")
+#     sys.exit(1)
+# if num_format==0:
+#     print("O numero é 0.")
+# elif num_format >0:
+#     print( f"O numero {num_format} é maior do que 0.")
+# elif num_format <0:
+#     print( f"O numero {num_format} é menor do que 0.")
+
+# Exercicio 12
+
+ret_01 = float(input("Digite a largura do retângulo..."))
+ret_02 = float(input("Agora digite o comprimento do retângulo..."))
+ret_area = ret_01 * ret_02
+print( f"A area desse retangulo é {ret_area:.01f}un.")
