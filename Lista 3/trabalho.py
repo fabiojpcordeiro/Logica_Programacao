@@ -23,7 +23,7 @@
 # # Exercicio 04
 # # Excluindo anos bissextos e assumindo 1 mês = 30 dias.
 # idade_ex04 = int(input("Caso usuário, digite sua idade em anos..."))
-# print( f"Você tem {idade_ex04 * 12} meses e {idade_ex04 * 365} dias de vida!!!")
+# print( f"Você tem {idade_ex04 * 12} meses ou {idade_ex04 * 365} dias de vida!!!")
 
 # # Exercicio 05
 # nota_01 = float(input("Digite sua primeira nota: "))
@@ -42,10 +42,14 @@
 # else:
 #     print ( f"Sua média é: {media_final} e você está reprovado")
 
-# Exercicio 07
-valor_produto = float(input("Digite o valor do produto: "))
-dinheiro_pago = float(input("Digite o dinheiro pago: "))
-if(dinheiro_pago >= valor_produto):
-    print( f"o seu troco é R${dinheiro_pago - valor_produto:.02f}")
-else:
-    print("Dinheiro insuficiente!!!")
+# # Exercicio 07
+# valor_produto = float(input("Digite o valor do produto: "))
+# dinheiro_pago = float(input("Digite o dinheiro pago: "))
+# if(dinheiro_pago >= valor_produto):
+#     print( f"o seu troco é R${dinheiro_pago - valor_produto:.02f}")
+# else:
+#     print("Dinheiro insuficiente!!!")
+
+# Exercicio 08
+num_horas = int(input("Digite o numero de horas: "))
+print ( f"{num_horas} horas é equivalente a {num_horas*60} minutos ou {num_horas*3600} segundos")
