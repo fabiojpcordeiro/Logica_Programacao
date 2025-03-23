@@ -83,12 +83,19 @@ import sys
 # ret_area = ret_01 * ret_02
 # print( f"A area desse retangulo é {ret_area:.01f}un.")
 
-# Exercicio 13
-num_int1 = int(input("Digite um numero inteiro..."))
-num_int2 = int(input("Digite mais um numero inteiro..."))
-if num_int1 == num_int2:
-    print("Os numeros são iguais!")
-elif num_int1 > num_int2:
-    print( f"O numero {num_int1} é maior que {num_int2}")
-else:
-    print( f"O numero {num_int2} é maior que {num_int1}")
+# # Exercicio 13
+# num_int1 = int(input("Digite um numero inteiro..."))
+# num_int2 = int(input("Digite mais um numero inteiro..."))
+# if num_int1 == num_int2:
+#     print("Os numeros são iguais!")
+# elif num_int1 > num_int2:
+#     print( f"O numero {num_int1} é maior que {num_int2}")
+# else:
+#     print( f"O numero {num_int2} é maior que {num_int1}")
+
+# Exercicio 14
+print("Olá, bem vindo a calculadora de IMC!")
+altura = float(input("Digite a sua altura..."))
+peso = float(input("Agora digite seu peso..."))
+imc = peso/(altura*altura)
+print( f"O seu IMC é {imc:.1f}")
