@@ -1,3 +1,4 @@
+import sys
 # # Exercício 01
 # nome = input("Olá caro usuário, por favor digite seu nome...")
 # print( f"Seja bem vindo {nome} a nossa plataforma!")
@@ -58,6 +59,20 @@
 # lado_quadrado = float(input("Por favor, digite o valor do lado do quadrado para calcularmos o perímetro..."))
 # print( f"Um quadrado com lado {lado_quadrado}un tem {lado_quadrado*4}un de perímetro.")
 
-# Exercicio 10
-num_pot = int(input("Digite um numero para calcularmos sua potência de 2..."))
-print( f"A potencia de 2 do numero {num_pot} é {num_pot*num_pot}")
+# # Exercicio 10
+# num_pot = int(input("Digite um numero para calcularmos sua potência de 2..."))
+# print( f"A potencia de 2 do numero {num_pot} é {num_pot*num_pot}")
+
+# Exercicio 11
+# Brincando um pouquinho com tratamento de exceções :) 
+try:
+    num_format = int(input("Digite um numero para teste..."))
+except Exception as erro:
+    print( f"Ocorreu o erro: {erro}")
+    sys.exit(1)
+if num_format==0:
+    print("O numero é 0.")
+elif num_format >0:
+    print( f"O numero {num_format} é maior do que 0.")
+elif num_format <0:
+    print( f"O numero {num_format} é menor do que 0.")
