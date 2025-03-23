@@ -39,9 +39,9 @@ nota01 = float(input("Digite a nota do primeiro bimestre: "))
 nota02 = float(input("Digite a nota do segundo bimestre: "))
 media_final = (nota01+nota02)/2
 if media_final >=7:
-    print ( f"Sua média é: {media_final} e você está aprovado.")
+    print ( f"Sua média é: {media_final:.1f} e você está aprovado.")
 else:
-    print ( f"Sua média é: {media_final} e você está reprovado.")
+    print ( f"Sua média é: {media_final:.1f} e você está reprovado.")
 
 # Exercicio 07
 valor_produto = float(input("Digite o valor do produto: "))
