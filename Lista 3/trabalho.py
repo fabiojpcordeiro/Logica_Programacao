@@ -54,6 +54,10 @@
 # num_horas = int(input("Digite o numero de horas: "))
 # print ( f"{num_horas} horas é equivalente a {num_horas*60} minutos ou {num_horas*3600} segundos")
 
-# Exercicio 09
-lado_quadrado = float(input("Por favor, digite o valor do lado do quadrado para calcularmos o perímetro..."))
-print( f"Um quadrado com lado {lado_quadrado}un tem {lado_quadrado*4}un de perímetro.")
+# # Exercicio 09
+# lado_quadrado = float(input("Por favor, digite o valor do lado do quadrado para calcularmos o perímetro..."))
+# print( f"Um quadrado com lado {lado_quadrado}un tem {lado_quadrado*4}un de perímetro.")
+
+# Exercicio 10
+num_pot = int(input("Digite um numero para calcularmos sua potência de 2..."))
+print( f"A potencia de 2 do numero {num_pot} é {num_pot*num_pot}")
