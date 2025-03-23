@@ -25,9 +25,19 @@
 # idade_ex04 = int(input("Caso usuário, digite sua idade em anos..."))
 # print( f"Você tem {idade_ex04 * 12} meses e {idade_ex04 * 365} dias de vida!!!")
 
-# Exercicio 05
-nota_01 = float(input("Digite sua primeira nota: "))
-nota_02 = float(input("Digite sua segunda nota: "))
-nota_03 = float(input("Digite sua terceira nota: "))
-media = (nota_01+nota_02+nota_03)/3
-print( f"A sua média final é: {media:.1f}")
+# # Exercicio 05
+# nota_01 = float(input("Digite sua primeira nota: "))
+# nota_02 = float(input("Digite sua segunda nota: "))
+# nota_03 = float(input("Digite sua terceira nota: "))
+# media = (nota_01+nota_02+nota_03)/3
+# print( f"A sua média final é: {media:.2f}")
+
+# Exercicio 06
+
+nota01 = float(input("Digite a nota do primeiro bimestre: "))
+nota02 = float(input("Digite a nota do segundo bimestre: "))
+media_final = (nota01+nota02)/2
+if media_final >=7:
+    print ( f"Sua média é: {media_final} e você está aprovado")
+else:
+    print ( f"Sua média é: {media_final} e você está reprovado")
