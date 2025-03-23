@@ -20,7 +20,14 @@
 # elif(operador == "*"):
 #     print( f"O resultado de {int_01}{operador}{int_02} é {int_01*int_02}")
 
-# Exercicio 04
-# Excluindo anos bissextos e assumindo 1 mês = 30 dias.
-idade_ex04 = int(input("Caso usuário, digite sua idade em anos..."))
-print( f"Você tem {idade_ex04 * 12} meses e {idade_ex04 * 365} dias de vida!!!")
+# # Exercicio 04
+# # Excluindo anos bissextos e assumindo 1 mês = 30 dias.
+# idade_ex04 = int(input("Caso usuário, digite sua idade em anos..."))
+# print( f"Você tem {idade_ex04 * 12} meses e {idade_ex04 * 365} dias de vida!!!")
+
+# Exercicio 05
+nota_01 = float(input("Digite sua primeira nota: "))
+nota_02 = float(input("Digite sua segunda nota: "))
+nota_03 = float(input("Digite sua terceira nota: "))
+media = (nota_01+nota_02+nota_03)/3
+print( f"A sua média final é: {media:.1f}")
