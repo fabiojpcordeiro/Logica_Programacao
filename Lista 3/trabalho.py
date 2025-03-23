@@ -93,9 +93,18 @@ import sys
 # else:
 #     print( f"O numero {num_int2} é maior que {num_int1}")
 
-# Exercicio 14
-print("Olá, bem vindo a calculadora de IMC!")
-altura = float(input("Digite a sua altura..."))
-peso = float(input("Agora digite seu peso..."))
-imc = peso/(altura*altura)
-print( f"O seu IMC é {imc:.1f}")
+# # Exercicio 14
+# print("Olá, bem vindo a calculadora de IMC!")
+# altura = float(input("Digite a sua altura..."))
+# peso = float(input("Agora digite seu peso..."))
+# imc = peso/(altura*altura)
+# print( f"O seu IMC é {imc:.1f}")
+
+# Exercicio 15
+distancia = float(input("Digite a distancia do seu destino..."))
+velocidade = float(input("digite a velocidade media que voce constuma viajar..."))
+tempo = distancia/velocidade
+tempo_horas = int(tempo)
+tempo_minutos = int((tempo-tempo_horas)*60)
+print( f"Voce ira demorar {tempo:.1f} horas para chegar a seu destino")
+print( f"Ou seja, {tempo_horas}h e {tempo_minutos}m.")
