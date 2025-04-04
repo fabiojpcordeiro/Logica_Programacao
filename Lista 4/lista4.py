@@ -60,7 +60,7 @@ for i in range(1,101):
 print( f" A soma dos numeros de 1 a 100 é: {soma}")
 
 # Exercicio 8
-numero_tabuada = int(input("Digite um numero e te darei a tabuada de 1 a 10..."))
+numero_tabuada = int(input("Digite um numero e te darei a tabuada..."))
 for i in range(1,11):
     print( f"{numero_tabuada} X {i} = ", numero_tabuada*i)
 
